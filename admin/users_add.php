@@ -8,7 +8,8 @@
 		$password = $_POST['password'];
 		$address = $_POST['address'];
 		$contact = $_POST['contact'];
-
+		//agregar el tipo de usuario
+		$type = $_POST['type'];
 		$conn = $pdo->open();
 
 		$stmt = $conn->prepare("SELECT *, COUNT(*) AS numrows FROM users WHERE email=:email");

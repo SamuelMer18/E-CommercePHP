@@ -52,6 +52,16 @@
                     </div>
                 </div>
                 <div class="form-group">
+                    <label for="contact" class="col-sm-3 control-label">Tipo Usuario</label>
+                    //agrege el select para el tipo de usuario 3/1/23
+                    <div class="col-sm-9">
+                      <select class="form-control" name="type">
+                        <option value="admin">Administrador</option>
+                        <option value="user">Usuario</option>
+                      </select>
+                    </div>
+                </div>
+                <div class="form-group">
                     <label for="photo" class="col-sm-3 control-label">Foto</label>
 
                     <div class="col-sm-9">
@@ -120,6 +130,16 @@
 
                     <div class="col-sm-9">
                       <input type="text" class="form-control" id="edit_contact" name="contact">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="contact" class="col-sm-3 control-label">Tipo Usuario</label>
+<!--                     //agrege el select para el tipo de usuario 3/1/23
+ -->                    <div class="col-sm-9">
+                      <select class="form-control" name="type">
+                        <option value="admin">Administrador</option>
+                        <option value="user">Usuario</option>
+                      </select>
                     </div>
                 </div>
             </div>

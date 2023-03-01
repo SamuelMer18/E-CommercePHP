@@ -9,6 +9,7 @@
 		$password = $_POST['password'];
 		$address = $_POST['address'];
 		$contact = $_POST['contact'];
+		$type = ($_POST['type'] == 'admin') ? 1 : 0;
 
 		$conn = $pdo->open();
 		$stmt = $conn->prepare("SELECT * FROM users WHERE id=:id");
@@ -23,8 +24,8 @@
 		}
 
 		try{
-			$stmt = $conn->prepare("UPDATE users SET email=:email, password=:password, firstname=:firstname, lastname=:lastname, address=:address, contact_info=:contact WHERE id=:id");
-			$stmt->execute(['email'=>$email, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'address'=>$address, 'contact'=>$contact, 'id'=>$id]);
+			$stmt = $conn->prepare("UPDATE users SET email=:email, password=:password, firstname=:firstname, lastname=:lastname, address=:address, contact_info=:contact, type=:type WHERE id=:id");
+			$stmt->execute(['email'=>$email, 'password'=>$password, 'firstname'=>$firstname, 'lastname'=>$lastname, 'address'=>$address, 'contact'=>$contact, 'id'=>$id, 'type'=>$type]);
 			$_SESSION['Éxito'] = 'Usuario actualizado con éxito';
 
 		}

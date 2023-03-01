@@ -52,14 +52,15 @@
 		                  <span class="fa fa-angle-right"></span>
 		                </a>
 		            </div>
-		            <h2>Los Mejores Productos:</h2>
+					
+		            <h2>Nuestros Productos:</h2>
 		       		<?php
 		       			$month = date('m');
 		       			$conn = $pdo->open();
 
 		       			try{
 		       			 	$inc = 3;	
-						    $stmt = $conn->prepare("SELECT *, SUM(quantity) AS total_qty FROM details LEFT JOIN sales ON sales.id=details.sales_id LEFT JOIN products ON products.id=details.product_id WHERE MONTH(sales_date) = '$month' GROUP BY details.product_id ORDER BY total_qty DESC LIMIT 6");
+						    $stmt = $conn->prepare("SELECT * FROM products");
 						    $stmt->execute();
 						    foreach ($stmt as $row) {
 						    	$image = (!empty($row['photo'])) ? 'images/'.$row['photo'] : 'images/noimage.jpg';
