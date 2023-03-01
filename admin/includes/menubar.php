@@ -70,31 +70,6 @@
           <li><a href="products.php"><i class="fa fa-circle-o"></i> Productos</a></li>
           <li><a href="category.php"><i class="fa fa-circle-o"></i> Categoría</a></li>
         </ul>
-         <!-- separar -->
-        <li class="treeview">
-        <a href="#">       
-      <i class="fa fa-shopping-cart"></i>
-          <span>Compras</span>
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-        </a>
-        <ul class="treeview-menu">
-        <li><a href="#"><i class="fa fa-circle-o"></i> Ingresos</a></li>
-        <li><a href="#"><i class="fa fa-circle-o"></i> Proveedores</a></li>
-      </ul>
-      <li class="treeview">
-        <a href="#">       
-      <i class="fa fa-shopping-bag"></i>
-          <span>Ventas</span>
-          <span class="pull-right-container">
-            <i class="fa fa-angle-left pull-right"></i>
-          </span>
-        </a>
-        <ul class="treeview-menu">
-      <li><a href="#"><i class="fa fa-circle-o"></i> <span>Ventas</span></a></li>
-      <li><a href="#"><i class="fa fa-circle-o"></i> <span>Clientes</span></a></li>
-      </ul>
 
       <li class="header">SOLICITAR</li>
       <li class="treeview.menu">
