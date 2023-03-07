@@ -6,7 +6,7 @@
 		$name = $_POST['name'];
 
 		try{
-			$stmt = $conn->prepare("UPDATE category SET name=:name WHERE id=:id");
+			$stmt = $conn->prepare("UPDATE category SET name=:name, cat_slug=:name WHERE id=:id");
 			$stmt->execute(['name'=>$name, 'id'=>$id]);
 			$_SESSION['success'] = 'Categoría actualizada con éxito';
 		}
