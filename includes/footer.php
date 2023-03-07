@@ -5,7 +5,7 @@
       <div class="pull-right hidden-xs">
         <b>Todos los derechos reservados</b>
       </div>
-      <strong>Copyright &copy; 2023 <a href="https://www.facebook.com/profile.php?id=100010116841282/">Desarrollado por Grupo 5: Inalcanzables</a></strong>
+      <strong>Copyright &copy; 2023 <a href="https://www.facebook.com/universidadprivadadomingosaviotarija">Desarrollado por Grupo 5: Inalcanzables</a></strong>
     </div>
    
 <!-- Cargar SDK de Facebook para JavaScript -->

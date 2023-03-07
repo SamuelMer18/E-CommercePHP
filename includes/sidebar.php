@@ -30,9 +30,9 @@
 	    	<h3 class='box-title'><b>Síguenos en las redes sociales</b></h3>
 	  	</div>
 	  	<div class='box-body'>
-	    	<a class="btn btn-social-icon btn-facebook"  href="https://www.facebook.com/profile.php?id=100010116841282/"><i class="fa fa-facebook"></i></a>
-	    	<a class="btn btn-social-icon btn-instagram"href="https://www.instagram.com/alexyosdado/"><i class="fa fa-instagram"></i></a>
-			<a class="btn btn-social-icon btn-whatsapp"href="https://api.whatsapp.com/send?phone=+51942786818&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Los%20Productos/"><i class="fa fa-whatsapp"></i></a>
+	    	<a class="btn btn-social-icon btn-facebook"  href="https://www.facebook.com/universidadprivadadomingosaviotarija"><i class="fa fa-facebook"></i></a>
+	    	<a class="btn btn-social-icon btn-instagram"href="https://www.instagram.com/upds_santacruz/"><i class="fa fa-instagram"></i></a>
+			<a class="btn btn-social-icon btn-whatsapp"href="https://api.whatsapp.com/send/?phone=59172129166&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp"></i></a>
 	    	
 	  	</div>
 	</div>
